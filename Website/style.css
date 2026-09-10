@@ -86,9 +86,7 @@ header {
 }
 
 
-/* =========================
-   General layout
-   ========================= */
+/*General layout*/
 
 main {
     min-height: 75vh;
@@ -133,9 +131,7 @@ p {
 }
 
 
-/* =========================
-   Buttons
-   ========================= */
+/* Buttons*/
 
 .button {
     display: inline-block;
@@ -159,10 +155,7 @@ p {
 }
 
 
-/* =========================
-   Home Hero
-   ========================= */
-
+/*Home Hero*/
 .hero {
     min-height: calc(100vh - 88px);
 
@@ -183,7 +176,7 @@ p {
 }
 
 
-/* Left text */
+/*Left text*/
 .hero-text {
     max-width: 760px;
 }
@@ -211,7 +204,7 @@ p {
 }
 
 
-/* Right card */
+/*Right card*/
 .hero-card {
     background: rgba(255, 246, 198, 0.90);
     padding: 45px 35px;
@@ -234,7 +227,7 @@ p {
 }
 
 
-/* Button */
+/*Button*/
 .hero .button {
     background-color: #f4c95d;
     color: #2f261d;
@@ -248,9 +241,7 @@ p {
 }
 
 
-/* =========================
-   Feature Cards
-   ========================= */
+/*Feature Cards */
 
 .feature-grid {
     display: grid;
@@ -260,15 +251,10 @@ p {
 
 .feature-card {
     background-color: white;
-
     padding: 30px;
-
     border-radius: 12px;
-
     border-top: 5px solid #f4c95d;
-
     box-shadow: 0 5px 18px rgba(0, 0, 0, 0.06);
-
     transition: 0.3s;
 }
 
@@ -277,16 +263,12 @@ p {
 }
 
 
-/* =========================
-   CTA
-   ========================= */
+/*CTA*/
 
 .cta-section {
     background-color: #5b4935;
     color: white;
-
     text-align: center;
-
     padding: 70px 30px;
 }
 
@@ -299,9 +281,7 @@ p {
 }
 
 
-/* =========================
-   Page Banner
-   ========================= */
+/*Page Banner*/
 
 .page-banner {
     background-color: #fff3c4;
@@ -322,9 +302,7 @@ p {
 }
 
 
-/* =========================
-   Visualisation Sections
-   ========================= */
+/* Visualisation Sections*/
 
 .visualisation-section {
     padding: 70px 30px;
@@ -411,9 +389,7 @@ p {
 }
 
 
-/* =========================
-   About
-   ========================= */
+/*About*/
 
 .about-grid {
     max-width: 1200px;
@@ -451,9 +427,7 @@ p {
 }
 
 
-/* =========================
-   Footer
-   ========================= */
+/*Footer*/
 
 footer {
     background-color: #3f3325;
@@ -470,9 +444,7 @@ footer p {
 }
 
 
-/* =========================
-   Responsive Design
-   ========================= */
+/*Responsive Design*/
 
 @media (max-width: 850px) {
 
