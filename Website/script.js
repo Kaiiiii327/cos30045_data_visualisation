@@ -26,9 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     });
 
-
     console.log(
         "COS30045 Appliance Energy Consumption Website loaded."
     );
-
 });
