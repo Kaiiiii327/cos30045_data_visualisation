@@ -41,7 +41,7 @@ header {
     padding: 12px 30px;
 }
 
-#logo {
+.logo {
     width: 65px;
     height: 65px;
     object-fit: contain;
