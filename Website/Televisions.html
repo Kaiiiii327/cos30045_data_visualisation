@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Television Data | Appliance Energy Consumption</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo-link">
+                <img src="images/logo.png" alt="Power Logo" class="logo">
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="Televisions.html" class="active">
+                        Televisions
+                    </a>
+                </li>
+
+                <li>
+                    <a href="About Us.html">About Us</a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="page-banner">
+
+            <p class="eyebrow">
+                Television Dataset
+            </p>
+
+            <h1>
+                Television Energy Insights
+            </h1>
+
+            <p>
+                The following visualisations were created from Australian
+                television energy rating data processed using KNIME.
+            </p>
+
+        </section>
+
+
+        <section class="visualisation-section">
+
+            <div class="visual-card">
+
+                <div class="visual-text">
+
+                    <span class="number">01</span>
+
+                    <h2>
+                        Available Screen Technologies
+                    </h2>
+
+                    <h3>
+                        What type of TV screen technologies are currently
+                        available in Australia and which are the most frequent?
+                    </h3>
+
+                    <p>
+                        The dataset contains LCD, LCD (LED) and OLED television
+                        technologies. From the visualisation, LCD (LED) appears
+                        to be the most frequently represented screen technology
+                        in the dataset.
+                    </p>
+
+                </div>
+
+
+                <div class="chart-container">
+
+                    <img
+                        src="images/Screen_Tech.png"
+                        alt="Pie chart showing television screen technology distribution"
+                        class="chart"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="visualisation-section alternate">
+
+            <div class="visual-card">
+
+                <div class="visual-text">
+
+                    <span class="number">02</span>
+
+                    <h2>
+                        Screen Size Distribution
+                    </h2>
+
+                    <h3>
+                        What screen sizes are available and which are most frequent?
+                    </h3>
+
+                    <p>
+                        Television screen sizes vary considerably across the
+                        dataset. The distribution shows that some common screen
+                        size categories occur much more frequently than others.
+                    </p>
+
+                </div>
+
+
+                <div class="chart-container">
+
+                    <img
+                        src="images/Bar Chart_screensize_inches.png"
+                        alt="Bar chart showing television screen size distribution"
+                        class="chart"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="visualisation-section">
+
+            <div class="visual-card">
+
+                <div class="visual-text">
+
+                    <span class="number">03</span>
+
+                    <h2>
+                        Brands with the Largest Number of Models
+                    </h2>
+
+                    <h3>
+                        Which brands have the largest number of television models?
+                    </h3>
+
+                    <p>
+                        The chart compares the number of models registered under
+                        different television brands. Some brands have a much
+                        larger number of models represented in the dataset.
+                    </p>
+
+                </div>
+
+
+                <div class="chart-container">
+
+                    <img
+                        src="images/Bar Chart_brand_count.png"
+                        alt="Bar chart showing television brands with the most models"
+                        class="chart"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="visualisation-section alternate">
+
+            <div class="visual-card">
+
+                <div class="visual-text">
+
+                    <span class="number">04</span>
+
+                    <h2>
+                        Screen Technology and Power Consumption
+                    </h2>
+
+                    <h3>
+                        Which type of screen technology consumes the least amount of power?
+                    </h3>
+
+                    <p>
+                        The chart compares the median average-mode power
+                        consumption for LCD, LCD (LED) and OLED televisions.
+                        The visualisation can be used to identify which screen
+                        technology has the lowest typical power consumption.
+                    </p>
+
+                </div>
+
+
+                <div class="chart-container">
+
+                    <img
+                        src="images/Bar Chart_screen_tech_avgmodepower.png"
+                        alt="Bar chart comparing median power consumption by screen technology"
+                        class="chart"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="visualisation-section">
+
+            <div class="visual-card">
+
+                <div class="visual-text">
+
+                    <span class="number">05</span>
+
+                    <h2>
+                        Screen Size vs Power Consumption
+                    </h2>
+
+                    <h3>
+                        What is the relationship between screen size and power use?
+                    </h3>
+
+                    <p>
+                        The scatter plot shows a clear positive relationship.
+                        Larger television screens generally use more average-mode
+                        power than smaller television screens.
+                    </p>
+
+                </div>
+
+
+                <div class="chart-container">
+
+                    <img
+                        src="images/Scatter Plot.png"
+                        alt="Scatter plot showing relationship between screen size and average mode power"
+                        class="chart large-chart"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="visualisation-section alternate">
+
+            <div class="visual-card">
+
+                <div class="visual-text">
+
+                    <span class="number">06</span>
+
+                    <h2>
+                        Screen Size vs Star Rating
+                    </h2>
+
+                    <h3>
+                        What is the relationship between star rating and screen size?
+                    </h3>
+
+                    <p>
+                        The scatter plot compares energy star ratings across
+                        different screen sizes. Star ratings vary within similar
+                        screen sizes, suggesting that screen size alone does not
+                        determine the energy efficiency rating.
+                    </p>
+
+                </div>
+
+
+                <div class="chart-container">
+
+                    <img
+                        src="images/Scatter Plot-2.png"
+                        alt="Scatter plot showing relationship between television screen size and star rating"
+                        class="chart"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="visualisation-section">
+
+            <div class="visual-card">
+
+                <div class="visual-text">
+
+                    <span class="number">07</span>
+
+                    <h2>
+                        Power Consumption Between Brands
+                    </h2>
+
+                    <h3>
+                        Are there differences in power consumption between brands?
+                    </h3>
+
+                    <p>
+                        The box plot shows variation in average-mode power
+                        consumption between television brands. The distributions
+                        differ between brands, and several high-power outliers
+                        can also be observed.
+                    </p>
+
+                </div>
+
+
+                <div class="chart-container">
+
+                    <img
+                        src="images/Box Plot_avgmodepower.png"
+                        alt="Box plot comparing television power consumption between brands"
+                        class="chart"
+                    >
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="summary-section">
+
+            <h2>
+                Key Observation
+            </h2>
+
+            <p>
+                The visualisations show that television characteristics such
+                as screen size, screen technology and brand are associated with
+                differences in energy consumption. In particular, the data
+                suggests that larger televisions generally require more power.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Shan Kai Liu | COS30045 Data Visualisation
+        </p>
+
+        <p>
+            GenAI was used to assist with website development and code explanation.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
