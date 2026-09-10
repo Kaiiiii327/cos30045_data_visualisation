@@ -19,9 +19,6 @@ img {
 }
 
 
-/* =========================
-   Navigation
-   ========================= */
 
 header {
     background-color: #5b4935;
@@ -72,8 +69,8 @@ header {
 }
 
 
-/* mouse-over feedback */
 
+/* mouse-over feedback */
 .nav-links a:hover {
     background-color: #f4c95d;
     color: #333333;
@@ -118,9 +115,7 @@ main {
     letter-spacing: 2px;
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
     color: #5b4935;
     line-height: 1.2;
 }
@@ -169,16 +164,22 @@ p {
    ========================= */
 
 .hero {
-    max-width: 1200px;
-    margin: auto;
+    min-height: 80vh;
 
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 50px;
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("images/TV.png");
 
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
     align-items: center;
 
-    padding: 90px 30px;
+    padding: 80px 30px;
 }
 
 .hero-text h1 {
