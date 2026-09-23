@@ -1,6 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
-
-  
     // 1. Identify the current page
     let currentPage =
         decodeURIComponent(
@@ -13,11 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
         currentPage = "index.html";
     }
 
-
     // 2. Find all navigation links
     const navLinks =
         document.querySelectorAll(".nav-links a");
-
 
     // 3. Add current-page feedback
     navLinks.forEach(function (link) {
@@ -36,7 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         }
 
-
         // 4. Use JavaScript to change pages
         link.addEventListener("click", function (event) {
 
@@ -52,7 +47,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
 
     });
-
 
     // 5. Power logo returns to Home
     const logoLink =
