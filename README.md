@@ -67,7 +67,7 @@ GenAI helped me understand how HTML, CSS and JavaScript work together and helped
 I reviewed the generated code so that I could understand how it works and make changes when required.
 
 ## Website
-[Live Website Link]
+https://cos30045datavisualisation.vercel.app/
 
 ## Tools Used
 - HTML
